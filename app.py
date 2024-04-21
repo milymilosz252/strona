@@ -2,12 +2,11 @@ from flask import Flask, request, render_template, send_file, redirect, url_for,
 import os
 import zipfile
 from werkzeug.utils import secure_filename
-from flask_sslify import SSLify
-from OpenSSL import SSL
+
 
 
 app = Flask(__name__)
-sslify = SSLify(app)
+
 
 UPLOAD_FOLDER = 'zdjecia'
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif'}
