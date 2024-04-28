@@ -1,2 +1,1 @@
-# strona
-# strona
+# GaleriaZdjec
